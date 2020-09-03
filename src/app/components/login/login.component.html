@@ -1,0 +1,12 @@
+<p>login works!</p>
+<div>
+  <input type="text" placeholder="Usuario" [(ngModel)] = "usr"/>
+  <br>
+  <input type="text" placeholder="Contraseña" [(ngModel)] = "pass"/>
+  <br>
+  <button [disabled] = "!usr || !pass" (click)="login()">Ingresar</button>
+  <br>
+  <p>usr: admin</p>
+  <p>pass: admin</p>
+  <br>
+</div>

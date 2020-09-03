@@ -12,6 +12,7 @@ export class AppComponent {
   public edadDos:number = null;
   public suma:number = 0;
   public promedio:number = 0;
+  
   constructor() { }
 
   ngOnInit() {
